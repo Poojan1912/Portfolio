@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:wght@700&family=Poppins&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  color: #f8f8f2;
+  background-color: #282a36;
+  opacity: 0.95;
+}
+
+::selection {
+  color: black;
+  background-color: #ff79c6;
+}
+
+#navbar-brand {
+  font-family: "Noto Serif", serif;
+}
+
+#navbarNavAltMarkup {
+  justify-content: flex-end;
+}
+
+#navbar-items {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  padding-right: 40px;
+}
+
+#navbar-items li a {
+  color: #f8f8f2;
+  transition: color 0.6s;
+}
+
+#section-one {
+  background-image: linear-gradient(rgba(56, 58, 89, 0.9), rgba(0, 0, 0, 1)),
+    url("./images/wallpaper.jpg");
+  /* background-color: #383a59; */
+  padding: 280px 0px;
+  text-align: center;
+}
+
+#photo {
+  /* height: 600px; */
+  width: 240px;
+  border-radius: 5%;
+}
+
+#my-name {
+  color: #8be9fd;
+  font-family: "Noto Serif", serif;
+  font-size: 32px;
+}
+
+#profile-data {
+  color: #f2f2ec;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+
+#section-two {
+  background-color: #27283e;
+  padding: 40px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+.section-heading {
+  color: #8be9fd;
+  font-family: "Noto Serif", serif;  
+}
+
+#section-three {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  background-color: #27283e;
+}
+
+#section-three-heaading {
+  color: #ff79c6;
+}
+
+.icon{
+  box-shadow:  5px 5px 5px black;
+  background-color: #f8f8f2;
+}
+
+.icon-card {
+  width: 50px;
+}
+
+#section-four{
+  background-color: #383a59  ;
+  padding: 100px 0px;
+}
+
+.project-text{
+  color: #f8f8f2;
+}
+
+#section-five {
+  background-color: #323450;
+  padding: 40px 0;
+}
+
+#section-five-heading {
+  color: #50fa7b;
+  font-family: "Noto Serif", serif;
+}
+
+.section-five-data {
+  background-color: #282a36;
+  color: white;
+  box-shadow: none;
+  transition: 0.3s;
+}
+
+.section-five-data:hover {
+  box-shadow: 5px 5px 10px #282a36;
+}
+
+.contact-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #50fa7b;
+}
+
+.contact-detail {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  nav {
+    opacity: 0.95;
+  }
+  #navbar-items {
+    gap: 20px;
+  }
+
+  #navbar-items li a:hover {
+    color: #ff79c6;
+    border-bottom: 3px solid pink;
+    padding-bottom: 0px;
+  }
+
+  #photo {
+    width: 400px;
+  }
+
+  #my-name {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #section-two {
+    background-color: #27283e;
+    padding: 100px 0px;
+    text-align: justify;
+  }
+
+  .icon-card {
+    width: 100px;
+  }
+
+  .spacing {
+    padding-bottom: 80px;
+  }
+
+  #section-five {
+    padding: 80px 0;
+  }
+}
